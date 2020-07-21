@@ -1,221 +1,447 @@
-  /*screen 1200px*/
-  @media screen and (max-width: 1200px){
-  #ourservice .home_ourservice_preview .video {
-    width: 527px !important;  
-  }
-  #ourservice .home_ourservice_preview {
-    left: 80px !important;
-  }
-  #ourservice .home_ourservice_ourmessage {
-      left: 159px !important;
-  }
-  #ourservice .home_ourservice_ourmessage .message-1 {
-     font-size: 35px !important; 
-  }
-
-  #ourservice .home_ourservice_ourmessage .message-2 {
-     font-size: 30px !important; 
-  }
-  /*vr360tour*/
-  #header #home_header_top-header .vr-360 #carousel-VR360 {
-    margin-left: -80px !important;
-  }
+  /*screen 1280px*/
+@media screen and (max-width: 1280px) {
+#ourservice .home_ourservice_preview .video {
+  width: 527px !important;  
 }
-    /*screen 1000px*/
-  @media screen and (max-width: 1000px){
-  #ourservice .home_ourservice_ourmessage {
-      left: 119px !important;
-  }
-  #ourservice h3.our-client-title, h3.roles-title {
-      font-size: 15px !important;
-      padding: 74px 0px !important;
-  }
-  #ourservice .home_ourservice_ourmessage .message-1 {
-     font-size: 35px !important; 
-  }
+#ourservice .home_ourservice_preview {
+  left: 80px !important;
+}
+#ourservice .home_ourservice_ourmessage {
+  left: 159px !important;
+}
+#ourservice .home_ourservice_ourmessage .message-1 {
+ font-size: 35px !important; 
+}
 
-  #ourservice .home_ourservice_ourmessage .message-2 {
-     font-size: 20px !important; 
-  }
-  #ourservice .home_ourservice_preview {
-    left: 60px !important;
-  }
-  #ourservice .home_ourservice_preview .video {
-      width: 325px !important;
-  }
-  #ourservice .home_ourservice_preview .info-video {
-      width: 280px !important;
-  }
-  .home_footer_send-mail {
-    padding-top: 17px !important;
-    padding-bottom: 20px !important;
-  }
-  /*vr360tour*/
-  #header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption {
-    text-align: center !important;
-    left: 0 !important;
-    width: 100% !important;
-  }
-  #header #home_header_top-header .vr-360 #carousel-VR360 {
-    margin-left: -40px !important;
-  }
-  section#vr360tour-our-services .content {
-    padding: 50px 60px !important;
-  }
-  section#vr360tour-our-services .content .info-service {
-    width: 49% !important;
-  }
-  section#vr360tour-our-portfolio .content ul.social-icon {
-    width: 36% !important;
-  }
-  section#vr360tour-our-portfolio .content .our-portfolio .list #seemore, section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+#ourservice .home_ourservice_ourmessage .message-2 {
+ font-size: 30px !important; 
+}
+/*vr360tour*/
+#header #home_header_top-header .vr-360 #carousel-VR360 {
+margin-left: -80px !important;
+}
+/*agency */ 
+#header #top-header {
+min-height: 500px !important;
+}
+#header #main-header #agency_header_header img {
+  top: 150px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 ul.list-services li span {
+    font-size: 28px !important;
+}
+#solutions .agency_solutions_content .text {
+    font-size: 48px !important;
+}
+#solutions .agency_solutions_content p.strategy {
+    font-size: 25px !important;
+}
+#trusted-by .agency_trusted-by_content .carousel-control-prev, .carousel-control-prev:hover, .carousel-control-prev:focus, #trusted-by .agency_trusted-by_content .carousel-control-next, .carousel-control-next:hover, .carousel-control-next:focus {
+    left: 150px !important;
+}
+#trusted-by .agency_trusted-by_content ol.carousel-indicators {
+    right: 0px !important;
+}
+}
+/*screen 1024px*/
+@media screen and (max-width: 1024px){
+#ourservice .home_ourservice_ourmessage {
+  left: 119px !important;
+}
+#ourservice h3.our-client-title, h3.roles-title {
+  font-size: 15px !important;
+  padding: 74px 0px !important;
+}
+#ourservice .home_ourservice_ourmessage .message-1 {
+ font-size: 35px !important; 
+}
+
+#ourservice .home_ourservice_ourmessage .message-2 {
+ font-size: 20px !important; 
+}
+#ourservice .home_ourservice_preview {
+left: 60px !important;
+}
+#ourservice .home_ourservice_preview .video {
+width: 325px !important;
+}
+#ourservice .home_ourservice_preview .info-video {
+width: 280px !important;
+}
+.home_footer_send-mail {
+padding-top: 17px !important;
+padding-bottom: 20px !important;
+}
+/*vr360tour*/
+#header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption {
+text-align: center !important;
+left: 0 !important;
+width: 100% !important;
+}
+#header #home_header_top-header .vr-360 #carousel-VR360 {
+margin-left: -40px !important;
+}
+section#vr360tour-our-services .content {
+padding: 50px 60px !important;
+}
+section#vr360tour-our-services .content .info-service {
+width: 49% !important;
+}
+section#vr360tour-our-portfolio .content ul.social-icon {
+width: 36% !important;
+}
+section#vr360tour-our-portfolio .content .our-portfolio .list #seemore, section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+font-size: 50px !important;
+}
+/*agency*/
+#header #main-header #agency_header_header h2.large-title {
+    padding: 80px 60px 0px !important;
+    font-size: 45px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service {
+    margin-bottom: 35px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 ul.list-services li span {
+    font-size: 25px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 ul.list-services li:hover span {
+    margin-right: 10px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 .share-project span {
+    word-spacing: 20px !important;
+    letter-spacing: 10px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 .share-project:hover span {
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+}
+#solutions .agency_solutions_content .text {
+    font-size: 33px !important;
+}
+#solutions .agency_solutions_content p.strategy {
+    font-size: 19px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio .info {
+    font-size: 16px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio h3 {
+    font-size: 25px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio {
+    height: 250px !important;
+}
+#portfolio .agency_portfolio_content .portfolio_nav h3 {
     font-size: 50px !important;
-  }
 }
-/*===============================================Galaxy===============================*/
-@media screen and   (min-width: 576px) and (max-width: 1000px)
+#trusted-by .agency_trusted-by_content h2 {
+    width: 720px !important;
+}
+#trusted-by .agency_trusted-by_content .info {
+    width: 720px !important;
+}
+#trusted-by .agency_trusted-by_content .carousel-control-prev, .carousel-control-prev:hover, .carousel-control-prev:focus, #trusted-by .agency_trusted-by_content .carousel-control-next, .carousel-control-next:hover, .carousel-control-next:focus {
+    left: 70px !important;
+}
+#trusted-by .agency_trusted-by_content ol.carousel-indicators {
+    right: 0px !important;
+    margin-right: 10px !important;
+}
+#trusted-by .agency_trusted-by_content .carousel-control-prev, .carousel-control-prev:hover, .carousel-control-prev:focus, #trusted-by .agency_trusted-by_content .carousel-control-next, .carousel-control-next:hover, .carousel-control-next:focus {
+    left: 50px !important;
+}
+#trusted-by .agency_trusted-by_content  .facebook-content {
+    width: 720px !important;
+}
+}
+/*min-width 576px and max-width 1024px*/
+/*galaxy*/
+@media screen and   (min-width: 576px) and (max-width: 1024px)
 {
-    .card-columns {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
   .home_footer_info {
     padding: 20px 0px 10px 0px !important;
-   }
-   ul.social-icon li.list-inline.list-inline-item {
+  }
+  ul.social-icon li.list-inline.list-inline-item {
     margin-bottom: 6px !important
-    }
+  }
 }
 /*Screen 800px*/
 @media screen and (max-width: 800px){
   #ourservice .home_ourservice_ourmessage .message-1 {
-       font-size: 30px !important; 
-  }
+   font-size: 30px !important; 
+ }
 
-  #ourservice .home_ourservice_ourmessage .message-2 {
-     font-size: 20px !important; 
-  }
-  #about-post .home_about-post_post h3.title {
-    font-size: 2rem !important;
-  }
+ #ourservice .home_ourservice_ourmessage .message-2 {
+   font-size: 20px !important; 
+ }
+ #about-post .home_about-post_post h3.title {
+  font-size: 2rem !important;
+}
 }
 /*Screen 768px*/
 @media screen and (max-width: 768px){
-    #ourservice .home_ourservice_ourmessage .message-1 {
-        display: none;
-    }
-
-    #ourservice .home_ourservice_ourmessage .message-2 {
-         display: none;
-    }
-    #ourservice .home_ourservice_preview .info-video{
-        display: none !important;
-    }
-    #ourservice ul.roles.list-unstyled {
-        padding-top: 73px !important;
-    }
-    #home_hottest-blog_carousel .carousel-control-prev,#home_hottest-blog_carousel .carousel-control-next{
-      display: none !important;
-    }
-    #ourservice .home_ourservice_preview .video {
-    width: 365px !important;
-    }
+#ourservice .home_ourservice_ourmessage .message-1 {
+  display: none;
 }
-/*Screen 576px*/
-@media screen and (max-width: 576px){
-    .fa-2x {
-      font-size: 1.7rem !important;
-  }
-   #copy-right .address{
-        padding-top: 0px !important;
-   }
-   #copy-right .logo-footer {
-    width: 16% !important;
-   }
-   .home_ourservice_top-ourservice span.download{
-    font-size: 11px;
-   }
-   /*vr360tour*/
-   #header #home_header_top-header .vr-360 .vr-360-title {
-    padding: 25px 70px !important;
-  }
-  #header #home_header_top-header .vr-360 #main-menu {
-    left: -25px !important;
-  }
-  #header #home_header_top-header .vr-360 #carousel-VR360 {
-    margin-left: 0px !important;
-  }
-  #header #home_header_top-header .vr-360 #carousel-VR360 .carousel-item {
-    height: 200px !important;
-  }
-  #header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption>h5 {
-    font-size: 20px !important;
-    font-weight: 600;
-    padding: 20px 40px;
-  }
-  #header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption>p {
-    display: none !important;
-  }
-  section#vr360tour-our-services .content h2.title {
-    font-size: 35px !important;
-    margin-top: -9px !important;
-  }
-  section#vr360tour-our-services .content {
-    padding: 50px 15px !important;
-  }
-  section#vr360tour-our-portfolio .content h2.title {
-    font-size: 35px !important;
-  }
-  section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+#ourservice .home_ourservice_ourmessage .message-2 {
+ display: none;
+}
+#ourservice .home_ourservice_preview .info-video{
+display: none !important;
+}
+#ourservice ul.roles.list-unstyled {
+padding-top: 73px !important;
+}
+#home_hottest-blog_carousel .carousel-control-prev,#home_hottest-blog_carousel .carousel-control-next{
+display: none !important;
+}
+#ourservice .home_ourservice_preview .video {
+width: 365px !important;
+}
+.fa-2x {
+  font-size: 1.7rem !important;
+}
+#copy-right .address{
+  padding-top: 0px !important;
+}
+#copy-right .logo-footer {
+  width: 16% !important;
+}
+.home_ourservice_top-ourservice span.download{
+  font-size: 11px;
+}
+/*vr360tour*/
+#header #home_header_top-header .vr-360 .vr-360-title {
+  padding: 25px 70px !important;
+}
+#header #home_header_top-header .vr-360 #main-menu {
+  left: -25px !important;
+}
+#header #home_header_top-header .vr-360 #carousel-VR360 {
+  margin-left: 0px !important;
+}
+#header #home_header_top-header .vr-360 #carousel-VR360 .carousel-item {
+  height: 200px !important;
+}
+#header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption>h5 {
+  font-size: 20px !important;
+  font-weight: 600;
+  padding: 20px 40px;
+}
+#header #home_header_top-header .vr-360 #carousel-VR360 .carousel-caption>p {
+  display: none !important;
+}
+section#vr360tour-our-services .content h2.title {
+  font-size: 35px !important;
+  margin-top: -9px !important;
+}
+section#vr360tour-our-services .content {
+  padding: 50px 15px !important;
+}
+section#vr360tour-our-portfolio .content h2.title {
+  font-size: 35px !important;
+}
+section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+  font-size: 30px !important;
+}
+/*agency*/
+#header #top-header {
+    min-height: 250px !important;
+}
+#header #main-header #agency_header_header h2.large-title {
+    padding: 0px 20px 0px !important;
     font-size: 30px !important;
-  }
-} 
-
+    transform: translate(10px, 35px);
+}
+#header #main-header #agency_header_header img {
+    top: 80px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content h2.title {
+    font-size: 40px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service {
+    padding: 100px 40px !important;
+    height: 100px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service .overlay:before {
+    top: 180px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 ul.list-services li span {
+    font-size: 18px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 .share-project span {
+    word-spacing: 10px !important;
+    letter-spacing: 5px !important;
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 .share-project:hover span {
+     letter-spacing: 0px !important; 
+     word-spacing: 0px !important; 
+}
+#solutions .agency_solutions_content p.strategy {
+    font-size: 18px !important;
+}
+#solutions .agency_solutions_content .strategy-svg {
+    padding: 50px 10px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio .info {
+    font-size: 12px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio h3 {
+    font-size: 20px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio {
+    height: 200px !important;
+}
+#portfolio .agency_portfolio_content {
+    padding: 50px 10px 10px !important;
+}
+#trusted-by .agency_trusted-by_content h2 {
+    width: 460px !important;
+}
+#trusted-by .agency_trusted-by_content .info {
+    width: 460px !important;
+}
+#trusted-by .agency_trusted-by_content .info {
+    padding-left: 75px !important;
+}
+#trusted-by .agency_trusted-by_content .facebook-content {
+    width: 460px !important;
+}
+#trusted-by .agency_trusted-by_content .facebook {
+    font-size: 16px !important;
+}
+#achievement .agency_achievement_content h2 {
+    font-size: 40px !important;
+}
+#solutions .agency_solutions_content .child:hover {
+    left: 47% !important;
+}
+}
 /*Screen 480px*/
 @media screen and (max-width: 480px){
-      .fa-2x {
-        font-size: 1.3rem !important;
-    }
-   .home_ourservice_top-ourservice span.download>strong{
-      display: none;
-   }
-   #ourservice .home_ourservice_preview {
-    left: 20px !important ;
-   }
-   #ourservice .home_ourservice_preview .video {
-    width: 268px !important;
-   }
-   #home_hottest-blog_carousel {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
-   }
-  .get-quote-now svg {
-    margin-left: 4rem;
-    margin-top: -3rem;
-   }
-   .home_footer_info {
-    padding: 40px 0px 40px 0px !important;
-  }
-  .home_footer_info>h3 {
-    font-size: 2rem !important;
-  }
-  /*vr360tour*/
-  #header #home_header_top-header .vr-360 .vr-360-title {
-    padding: 25px 18px !important;
-  }
-  #header #home_header_top-header .vr-360 .more-info {
-    padding: 18px 0px !important;
-  }
-  section#vr360tour-our-services .content .info-service {
-    width: 100% !important;
-    clear: both !important;
-    margin-bottom: 20px !important;
-  }
-  section#vr360tour-our-portfolio .content ul.social-icon {
-    width: 100% !important;
- }
- section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+.fa-2x {
+  font-size: 1.3rem !important;
+}
+.home_ourservice_top-ourservice span.download>strong{
+  display: none;
+}
+#ourservice .home_ourservice_preview {
+  left: 20px !important ;
+}
+#ourservice .home_ourservice_preview .video {
+  width: 268px !important;
+}
+#home_hottest-blog_carousel {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+.get-quote-now svg {
+  margin-left: 4rem;
+  margin-top: -3rem;
+}
+.home_footer_info {
+  padding: 40px 0px 40px 0px !important;
+}
+.home_footer_info>h3 {
+  font-size: 2rem !important;
+}
+/*vr360tour*/
+#header #home_header_top-header .vr-360 .vr-360-title {
+  padding: 25px 18px !important;
+}
+#header #home_header_top-header .vr-360 .more-info {
+  padding: 18px 0px !important;
+}
+section#vr360tour-our-services .content .info-service {
+  width: 100% !important;
+  clear: both !important;
+  margin-bottom: 20px !important;
+}
+section#vr360tour-our-portfolio .content ul.social-icon {
+  width: 100% !important;
+}
+section#vr360tour-our-portfolio .content .our-portfolio .list .item {
+  font-size: 20px !important;
+}
+/*agency*/
+#header #top-header {
+    min-height: 180px !important;
+}
+#header #main-header #agency_header_header h2.large-title {
+    font-size: 18px !important;
+    transform: translate(10px, 60px) !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content h2.title {
+    padding: 35px 0px 0px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service {
+    padding: 75px 40px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service .overlay:before {
+   top: 85px !important;
+    left: 50px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service {
+    padding: 30px 20px !important;
+}
+section#ourservices #ourservice-1 .agency_ourservice-1_content .card-service {
     font-size: 20px !important;
-  }
+}
+section#ourservices #ourservice-2 .agency_ourservice-2_content .ourservice-2 ul.list-services li i {
+    font-size: 10px;
+}
+#solutions .agency_solutions_content .text {
+    font-size: 27px !important;
+}
+#solutions .agency_solutions_content .text-2 {
+    font-size: 33px !important;
+}
+#solutions .agency_solutions_content #grandparent{
+  display: none !important;
+}
+#trusted-by .agency_trusted-by_content h2 {
+    width: 310px !important;
+    font-size: 50px!important;
+}
+#trusted-by .agency_trusted-by_content .info {
+    width: 320px !important;
+}
+#trusted-by .agency_trusted-by_content .carousel-control-prev, .carousel-control-prev:hover, .carousel-control-prev:focus, #trusted-by .agency_trusted-by_content .carousel-control-next, .carousel-control-next:hover, .carousel-control-next:focus {
+    left: 20px !important;
+}
+#trusted-by .agency_trusted-by_content .facebook-content {
+    width: 320px !important;
+}
+#trusted-by .agency_trusted-by_content .facebook {
+    font-size: 12px !important;
+}
+#achievement .agency_achievement_content h2 {
+    font-size: 25px !important;
+}
+#achievement .agency_achievement_content h3 {
+    font-size: 16px !important;
+}
+#portfolio .agency_portfolio_content .portfolio_nav h3 {
+    font-size: 30px !important;
+    padding: 20px 20px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio .info span{
+  display: none !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio {
+    height: 150px !important;
+}
+#portfolio .agency_portfolio_content #portfolio_carousel .portfolio .info {
+    left: 10px !important;
+} 
+#trusted-by .agency_trusted-by_content .facebook-content {
+    width: 315px !important;
+}
+#copy-right .logo-footer {
+    top: -25px !important;
+}
 }

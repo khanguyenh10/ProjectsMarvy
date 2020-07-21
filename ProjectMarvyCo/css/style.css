@@ -281,17 +281,18 @@ hr.home_hottest-blog_break-line{
     font-weight: 600;
     font-size: 1.5rem;
 }
+
 /*================================================Top footer==============================*/
 /*========================================================================================*/
-#top-footer .container ,#footer .container, #copy-right .container{
- background: #ededed;
- border-bottom: 2px solid #b0a8a8;
-}
-#top-footer .container .row{
+#top-footer {
     background: url(../images/quote.jpg) no-repeat ;
     background-size: cover;
 }
-
+#footer , 
+#copy-right {
+ background: #ededed;
+ border-bottom: 2px solid #b0a8a8;
+}
 .home_top-footer_title h3 {
     font-size: 20px;
     padding-top: 20px;
@@ -363,7 +364,7 @@ hr.home_hottest-blog_break-line{
 
 #copy-right .logo-footer {
     position: relative;
-    top: -12px;
+    top: -40px;
     left: 21px;
     width: 11%;
 }
